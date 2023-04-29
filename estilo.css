@@ -1,0 +1,78 @@
+/*Agregar estilo al body*/
+/*body {
+    background-color: gainsboro;
+    color: rgb(209, 107, 209);
+  }
+  
+  p{
+    color: black;
+  } */
+  body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+  }
+  
+  
+  /*Selectores de Clase. Inician con un punto (.)*/
+  .lista-de-gatos {
+    color: lightgreen;
+  }
+  /*Selectores CSS. Selectores de Tipo. Tamaño de Fuente*/
+  h2 {
+    font-size: 30px;
+    /*Ejemplo de Familias Tipográficas*/
+    font-family: Verdana; 
+  }
+  /*Tamaño de la fuente*/
+  h3 {
+    font-size: 25px;
+  }
+  
+  /*Ejemplo de Google Fonts*/
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /*TAMAÑO DE FUENTE*/
+  /*Ejemplo de aplicar el mismo estilo a diferentes elementos*/
+  p,
+  ul,
+  ol {
+    font-size: 20px;
+  }
+  
+  /*Ejemplo de aplicar más de una propiedad a un elemento*/
+   li{
+    color: blue;
+    font-size: 15px;
+  } 
+    
+  img {
+   
+    width: 200px;
+  }
+  
+  /*Ejemplo de aplicar propiedades a diferentes img. Creamos una clase llamada imagen-de-gatos* y le modificamos el ancho. ancho = width*/
+  
+  .imagen-de-gatos {
+    width: 200px;
+  /*Añade bordes alrededor de un elemento, en este caso, una imagen*/
+    border-width: 5px;
+    border-color: rgb(188, 59, 160);
+    /*Existen estilos como none, dotted, double, groove, ridge, inset, outset*/
+    /*border-style: solid;*/ 
+    /*Podemos combinar estilos de borde*/
+    border-style: dotted ridge double groove;
+  }
+  /*Hacer esquinas redondeadas*/
+  
+  .bordes-redondeados {
+    border-radius: 50px;
+  }
